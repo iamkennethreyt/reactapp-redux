@@ -1,4 +1,4 @@
-export const UPDATE_USER = 'users:updateUser';
+import { UPDATE_USER } from "./types";
 
 export function updateUser(newUser){
     return{
